@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from '../logo.svg';
 function Home() {
     return (
@@ -38,9 +39,9 @@ function Home() {
                         <button type="button" className="btn btn-light">
                             Back
                         </button>
-                        <button type="button" className="btn btn-primary">
+                        <a href="/main" className="btn btn-primary">
                             Continue
-                        </button>
+                        </a>
                     </div>
 
                     <div className="text-center small text-muted">
