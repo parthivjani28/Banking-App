@@ -38,3 +38,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* New CSS */
+
+.MainPage-Tabs{
+  padding: 10px;
+  color: #fff;
+  background-color: #b9171c;
+  border: 1px solid #b9171c;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+li{
+  text-align: Left;
+  list-style: none;
+}
+
+.Section-1_leftSidebar{
+   text-align: Left;
+ 
+}
