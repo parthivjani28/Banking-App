@@ -2,7 +2,7 @@ import React from "react";
 
 function Welcome() {
     return (
-        <>
+        <> 
         <div className="container m-auto">
             <div className="card">
                 <div className="welcome-content">
