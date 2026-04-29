@@ -58,6 +58,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 p{
   margin-bottom: 0px;
 }
@@ -93,4 +97,41 @@ padding: 20px;
 .bookmeeting_link{
 color: #b9171c;
 
+
+
 }
+
+
+/* Repeated Components */
+
+.r-btn , .btn{ 
+  background-color: #b9171c;
+  color: #efefef;
+}
+
+.r-btn:hover , a:hover{
+  background-color: #efefef;
+  color: #b9171c;
+}
+
+/*  */
+
+/* Welcome Page */
+
+.wlcm-pg-div{
+    margin: 20% auto;
+    justify-content: center;
+    
+}
+
+.wlcm-pg-card {
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.react-logo{
+  width: 130px;
+}
+
+/*  */
