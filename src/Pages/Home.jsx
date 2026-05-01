@@ -25,7 +25,14 @@ function Home() {
                                 id="card-number"
                                 className="form-control"
                                 placeholder="0000 1111 2222 3333"
+                                required
                             />
+                            <label htmlFor="form-pswd" className="form-label">
+                                Password
+                            </label>
+                            <input type="password" id="form-pswd" className='form-control' placeholder='**********' required/>
+
+                           <button type="submit" className='submit btn'>Login In</button> 
                         </div>
                     </form>
 
